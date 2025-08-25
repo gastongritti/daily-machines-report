@@ -1,0 +1,61 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de VSCode
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+*.pyc
+
+# Archivos de pruebas o cobertura
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Carpeta de dependencias si usás pipenv o poetry
+Pipfile.lock
+poetry.lock
+
+# Archivos de bases de datos temporales
+*.sqlite3
+
+# Credenciales y tokens
+client_secret.json
+token.json
+service_account.json
+
+# Configuraciones del script
+config.yaml
+
+# Archivos generados
+pantografos_event_log.csv
+ciclos_*.csv
+updates_log.txt
+last_sync.txt
+
+# Scripts para el Programador de Tareas de Windows
+run_script.bat
+run_script.vbs

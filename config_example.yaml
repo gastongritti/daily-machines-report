@@ -1,0 +1,31 @@
+google_drive:
+  credentials_file: credentials/service_account.json
+  file_id: id_del_archivo_en_gdrive
+last_report_date: '2024-12-31'
+machines:
+  machine_name:
+  - MAQUINA 1
+  - MAQUINA 2
+  - MAQUINA 3
+paths:
+  data_dir: data
+  input_csv_file: archivo_descargado.csv
+  last_sync_file_path: last_sync.txt
+  logs_dir: logs
+  report_file_base_name: reporte_(date).pdf
+  reports_dir: reports
+report_days: # Lunes=0 ... Domingo=6
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+smtp:
+  app_password: contraseña_de_aplicacion
+  port: 587
+  recipients:
+  - email_receptor_1@gmail.com
+  - email_receptor_2@gmail.com
+  server: smtp.gmail.com
+  user: email_origen@gmail.com

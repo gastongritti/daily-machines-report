@@ -1,0 +1,8 @@
+google_api_python_client==2.178.0
+matplotlib==3.10.5
+numpy==2.3.2
+pandas==2.3.2
+protobuf==6.32.0
+PyYAML==6.0.2
+PyYAML==6.0.2
+reportlab==4.4.3
